@@ -48,20 +48,15 @@ The software is licensed under the GNU General Public License v3.0 license, with
 
 ## Installation for AWS
 
-```
- sudo apt-get update
- sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-    
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+# install python3-dev
 
- echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-  
- sudo apt-get update
- sudo apt-get install docker-ce docker-ce-cli containerd.io
- ```
+# install seed emulator
+
+git clone https://github.com/seed-labs/seed-emulator.git
+
+# install docker
+
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+```
