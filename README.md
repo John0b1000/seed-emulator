@@ -46,9 +46,9 @@ Contributions to SEED-Emulator are always welcome. For contribution guidelines, 
 
 The software is licensed under the GNU General Public License v3.0 license, with copyright by The SEED-Emulator Developers (see [LICENSE](./LICENSE.txt)).
 
-## Installation for AWS
+# Installation for AWS
 
-# update and upgrade
+## update and upgrade
 
 ```
 $ sudo apt update
@@ -56,13 +56,13 @@ $ sudo apt update
 $ sudo apt update
 ```
 
-# install Python v3
+## install Python v3
 
 ```
 $ sudo apt install python3-dev
 ```
 
-# install docker
+## install docker
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
 ```
@@ -89,7 +89,7 @@ $ su - ${USER}
 $ sudo usermod -aG docker username
 ```
 
-# install docker-compose
+## install docker-compose
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
 ```
@@ -101,7 +101,7 @@ $ chmod +x ~/.docker/cli-plugins/docker-compose
 $ docker compose version
 ```
 
-# install SEED emulator
+## install SEED emulator
 
 ```
 $ git clone https://github.com/seed-labs/seed-emulator.git
