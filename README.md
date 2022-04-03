@@ -46,7 +46,8 @@ Contributions to SEED-Emulator are always welcome. For contribution guidelines, 
 
 The software is licensed under the GNU General Public License v3.0 license, with copyright by The SEED-Emulator Developers (see [LICENSE](./LICENSE.txt)).
 
-# Installation for AWS
+Installation for AWS
+---
 
 ## update and upgrade
 
