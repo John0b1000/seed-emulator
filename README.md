@@ -74,7 +74,7 @@ sudo apt install apt-transport-https ca-certificates curl software-properties-co
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 ```
-$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 ```
 ```
 apt-cache policy docker-ce
@@ -86,7 +86,7 @@ sudo apt install docker-ce
 sudo systemctl status docker
 ```
 
-(optional -- execute commands without sudo)
+### (optional) execute docker commands without sudo
 
 ```
 sudo usermod -aG docker ${USER}
@@ -127,4 +127,8 @@ source development.env
 python3 setup.py install
 ```
 
-The SEED emulator can now be tested by following the steps outlined in "Getting Started"
+The SEED emulator can now be tested by following the steps outlined in "Getting Started" section. 
+One useful command is:
+```
+docker-compose build && docker-compose up
+```
