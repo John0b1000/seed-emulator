@@ -51,7 +51,9 @@ Installation for AWS
 
 ## update and upgrade
 
-$ ```sudo apt update```
+$ ```
+sudo apt update
+```
 
 $ `sudo apt update`
 
