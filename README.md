@@ -49,7 +49,7 @@ The software is licensed under the GNU General Public License v3.0 license, with
 Installation for AWS
 ---
 
-## update and upgrade
+## Update and Upgrade Packages
  
 ```
 sudo apt update
@@ -58,13 +58,13 @@ sudo apt update
 sudo apt update
 ```
 
-## install Python v3
+## Install Python v3
 
 ```
 sudo apt install python3-dev
 ```
 
-## install docker
+## Install Docker
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
 ```
@@ -86,7 +86,7 @@ sudo apt install docker-ce
 sudo systemctl status docker
 ```
 
-### (optional) execute docker commands without sudo
+### (Optional) Execute Docker Commands without Sudo
 
 ```
 sudo usermod -aG docker ${USER}
@@ -98,7 +98,7 @@ su - ${USER}
 sudo usermod -aG docker username
 ```
 
-## install docker-compose
+## Install Docker-Compose
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
 ```
@@ -112,7 +112,7 @@ chmod +x ~/.docker/cli-plugins/docker-compose
 docker compose version
 ```
 
-## install SEED emulator
+## Install the SEED Emulator
 
 ```
 git clone https://github.com/seed-labs/seed-emulator.git
