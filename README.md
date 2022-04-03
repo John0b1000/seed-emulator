@@ -52,63 +52,79 @@ Installation for AWS
 ## update and upgrade
  
 ```
-$ sudo apt update
+sudo apt update
 ```
-
-$ `sudo apt update`
+```
+sudo apt update
+```
 
 ## install Python v3
 
-$ `sudo apt install python3-dev`
+```
+sudo apt install python3-dev
+```
 
 ## install docker
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
-`$ sudo apt install apt-transport-https ca-certificates curl software-properties-common`
-
-`$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-
-`$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"`
-
-$ apt-cache policy docker-ce
-
-$ sudo apt install docker-ce
-
-$ sudo systemctl status docker
+```
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+```
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+```
+```
+apt-cache policy docker-ce
+```
+```
+sudo apt install docker-ce
+```
+```
+sudo systemctl status docker
 ```
 
 (optional -- execute commands without sudo)
 
 ```
-$ sudo usermod -aG docker ${USER}
-
-$ su - ${USER}
-
-$ sudo usermod -aG docker username
+sudo usermod -aG docker ${USER}
+```
+```
+su - ${USER}
+```
+```
+sudo usermod -aG docker username
 ```
 
 ## install docker-compose
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
 ```
-$ mkdir -p ~/.docker/cli-plugins/
+mkdir -p ~/.docker/cli-plugins/
 curl -SL https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
-
-$ chmod +x ~/.docker/cli-plugins/docker-compose
-
-$ docker compose version
+```
+```
+chmod +x ~/.docker/cli-plugins/docker-compose
+```
+```
+docker compose version
 ```
 
 ## install SEED emulator
 
 ```
-$ git clone https://github.com/seed-labs/seed-emulator.git
-
-$ cd seed-emulator-master
-
-$ source development.env
-
-$ python3 setup.py install
+git clone https://github.com/seed-labs/seed-emulator.git
+```
+```
+cd seed-emulator-master
+```
+```
+source development.env
+```
+```
+python3 setup.py install
 ```
 
 The SEED emulator can now be tested by following the steps outlined in "Getting Started"
