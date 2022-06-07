@@ -95,9 +95,7 @@ sudo usermod -aG docker ${USER}
 ## Install Docker-Compose
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
-```
-mkdir -p ~/.docker/cli-plugins/
-```
+
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
