@@ -112,7 +112,7 @@ docker compose version
 git clone https://github.com/seed-labs/seed-emulator.git
 ```
 ```
-cd seed-emulator-master
+cd seed-emulator
 ```
 ```
 source development.env
