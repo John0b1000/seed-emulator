@@ -91,12 +91,6 @@ sudo systemctl status docker
 ```
 sudo usermod -aG docker ${USER}
 ```
-```
-su - ${USER}
-```
-```
-sudo usermod -aG docker username
-```
 
 ## Install Docker-Compose
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
@@ -124,7 +118,7 @@ cd seed-emulator-master
 source development.env
 ```
 ```
-python3 setup.py install
+python3 setup.py install (sudo)
 ```
 
 The SEED emulator can now be tested by following the steps outlined in "Getting Started" section. 
