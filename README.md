@@ -91,6 +91,8 @@ sudo systemctl status docker
 ```
 sudo usermod -aG docker ${USER}
 ```
+Logout and log back into the server
+
 
 ## Install Docker-Compose
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
