@@ -128,3 +128,4 @@ One useful command is:
 ```
 docker-compose build && docker-compose up
 ```
+**WARNING**: Upon running SEED emulator for the first time, the AWS instance may crash. This is normal. Rebooting the instance and running the emulator again should fix this issue. 
