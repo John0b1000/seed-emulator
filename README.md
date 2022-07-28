@@ -46,7 +46,7 @@ Contributions to SEED-Emulator are always welcome. For contribution guidelines, 
 
 The software is licensed under the GNU General Public License v3.0 license, with copyright by The SEED-Emulator Developers (see [LICENSE](./LICENSE.txt)).
 
-Installation for AWS
+Installation for AWS/Azure
 ---
 
 ## Update and Upgrade Packages
@@ -128,4 +128,3 @@ One useful command is:
 ```
 docker-compose build && docker-compose up
 ```
-**WARNING**: Upon running SEED emulator for the first time, the AWS instance may crash. This is normal. Rebooting the instance and running the emulator again should fix this issue. 
